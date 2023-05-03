@@ -11,7 +11,7 @@ This driver adds a `YBClusterAwareDataSource` that requires only an initial _con
 
 ### Topology Awareness to enable geo-distributed apps
 
-This is similar to 'Cluster Awareness' but uses those servers which are part of a given set of geo-locations specified by _topology-keys_.
+This is similar to 'Cluster Awareness' but uses those servers which are part of a given set of geo-locations specified by _topology-keys_. You should not use toplogy awareness if your are using multiple universes synced with xCluster.
 
 ### Shard awareness for high performance
 
